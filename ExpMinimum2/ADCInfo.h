@@ -47,7 +47,7 @@ public:
             //cout << leaf->GetValue() << endl;
             measuredTime.push_back(TDatime(Constants::DATE, leaf->GetValue()));
         }
-        measurementTime = measuredTime[nEntries - 1].Convert() - measuredTime[0].Convert() - Constants::INHIBIT_TIME;
+        measurementTime = measuredTime[nEntries - 1].Convert() - measuredTime[0].Convert();
 
     }
 

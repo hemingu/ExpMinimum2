@@ -3,9 +3,9 @@
 
 namespace Constants
 {
-    const Int_t BIN = 4090;
+    const Int_t BIN = 4000;
     const Int_t HISTMIN = 0;
-    const Int_t HISTMAX = 4089;
+    const Int_t HISTMAX = 3999;
 
     const Int_t YEAR = 2017;
     const Int_t MONTH = 6;
@@ -14,7 +14,7 @@ namespace Constants
 
     const Int_t NCANVAS = 10;
 
-    const UInt_t INHIBIT_TIME = 9999 * 0.1;   // second
+    const UInt_t INHIBIT_TIME = 0.1*9999;   // second
 
     const TString AXIS_NAME = ";ADC Channel;Frequency";
     const TString TREE_NAME = "tree";
